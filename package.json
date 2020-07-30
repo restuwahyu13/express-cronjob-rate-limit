@@ -1,0 +1,30 @@
+{
+  "name": "express-cronjob-rate-limit",
+  "version": "1.0.0",
+  "description": "rate limit express api using middleware",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "restuwahyu13"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "express rate limit",
+    "node rate limit"
+  ],
+  "author": "restuwahyu13",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "node-schedule": "^1.3.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
