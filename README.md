@@ -1,6 +1,6 @@
 ### Express Cronjob Rate Limit Access API
 
-**Berikut** ini adalah cara simple implementasi untuk memberikan **RATE LIMIT ACCESS** pada sebuah **Route API**, cari ini bisa digunakan untuk melindungi **Route API** anda dari serangan seperti **Brute Force** atau membatasi **Limit Access Request** permintaan yang dikirim oleh user walaupun ini bukan cara yang terbaik untuk melakukan hal tersebut, cara kerjanya **IP Address** pengguna akan di cek terlebih dahulu jika **IP Address** pengguna melakukan **Request** melebihi batas **Maxsimum** yang telah ditentukan, maka nanti akan melemparkan pesan kesalahan dan **Request** yang diberikan tidak akan menumpuk dikarenakan sudah dibatasi dan **Request** yang diberikan juga akan dibersihkan secara **Otomatis**.
+**Berikut** ini adalah cara simple implementasi untuk memberikan **RATE LIMIT ACCESS** pada sebuah **Route API**, cari ini bisa digunakan untuk melindungi **Route API** anda dari serangan seperti **Brute Force** atau membatasi **Limit Access Request** permintaan yang dikirim oleh user walaupun ini bukan cara yang terbaik untuk melakukan hal tersebut, cara kerjanya **IP Address** pengguna akan di cek terlebih dahulu jika **IP Address** pengguna melakukan **Request** melebihi batas **Maximum** yang telah ditentukan, maka nanti akan melemparkan pesan kesalahan dan **Request** yang diberikan tidak akan menumpuk dikarenakan sudah dibatasi dan **Request** yang diberikan juga akan dibersihkan secara **Otomatis**.
 
 #### Cara Menjalankan Aplikasi
 
