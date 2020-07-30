@@ -43,17 +43,12 @@ module.exports = async (req, res, next) => {
   */
   switch (req.method) {
     case 'GET':
-      if (IpAddress.length < 8) {
+      if (IpAddress.length < 7) {
         IpAddress.push(myIp)
       }
       break
     case 'POST':
-      if (IpAddress.length < 8) {
-        IpAddress.push(myIp)
-      }
-      break
-    case 'PUT':
-      if (IpAddress.length < 8) {
+      if (IpAddress.length < 7) {
         IpAddress.push(myIp)
       }
       break
@@ -69,7 +64,7 @@ module.exports = async (req, res, next) => {
   /**
    @description if the same ip requests more than 5 throw an error message
   */
-  if (currentIp > 5) {
+  if (currentIp > 4) {
     return res.status(401).json({
       method: req.method,
       status: res.statusCode,
